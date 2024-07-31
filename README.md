@@ -8,7 +8,11 @@ ParentBuddy is an application designed to connect elderly people living in the s
 - **User Registration**: Users can register with their details.
 - **User Login**: Users can log in and receive a JWT token for authentication.
 - **Profile Access**: Users can access their profile information.
+- **Update Profile**: Users can update their profile information.
+- **Get All Users**: Users can retrieve all user profiles.
+- **Delete User**: Users can delete their profiles.
 - **Protected Routes**: Certain routes are protected and require a valid JWT token.
+- **Validation and Error Handling**: Input validation and comprehensive error handling for all endpoints.
 
 ## Tech Stack
 
@@ -93,6 +97,39 @@ ParentBuddy is an application designed to connect elderly people living in the s
 
 - **Endpoint**: `GET /api/users/profile`
 - **Description**: Access the profile of the logged-in user.
+- **Headers**:
+  - `x-auth-token`: `your_jwt_token`
+
+#### Update Profile
+
+- **Endpoint**: `PUT /api/users/profile`
+- **Description**: Update the profile of the logged-in user.
+- **Headers**:
+  - `x-auth-token`: `your_jwt_token`
+- **Request Body**:
+  ```json
+  {
+    "name": "John Smith",
+    "age": 66,
+    "neighborhood": "New Greenwood",
+    "phoneNumber": "987-654-3210",
+    "hometown": "New Springfield",
+    "languages": ["English", "Spanish"],
+    "hobbies": ["Reading", "Traveling"]
+  }
+  ```
+
+#### Get All Users
+
+- **Endpoint**: `GET /api/users/all`
+- **Description**: Retrieve all user profiles.
+- **Headers**:
+  - `x-auth-token`: `your_jwt_token`
+
+#### Delete User
+
+- **Endpoint**: `DELETE /api/users/profile`
+- **Description**: Delete the profile of the logged-in user.
 - **Headers**:
   - `x-auth-token`: `your_jwt_token`
 
