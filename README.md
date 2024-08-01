@@ -1,7 +1,7 @@
 
-# ParentBuddy
+# ParentBridge
 
-ParentBuddy is an application designed to connect elderly people living in the same neighborhood. The application includes user profiles with details like neighborhood, phone number, email ID, age, name, hometown, languages, hobbies, etc. Users can filter profiles based on preferences and communicate through a chat option available on each profile.
+ParentBridge is an application designed to connect elderly people living in the same neighborhood. The application includes user profiles with details like neighborhood, phone number, email ID, age, name, hometown, languages, hobbies, etc. Users can filter profiles based on preferences and communicate through a chat option available on each profile.
 
 ## Features
 
@@ -32,7 +32,7 @@ ParentBuddy is an application designed to connect elderly people living in the s
 1. **Clone the repository:**
    ```bash
    git clone <your-repository-url>
-   cd ParentBuddy
+   cd ParentBridge
    ```
 
 2. **Install dependencies:**
