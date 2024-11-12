@@ -1,7 +1,7 @@
 
 # ParentBridge
 
-ParentBridge is an application designed to connect elderly people living in the same neighborhood. The application includes user profiles with details like neighborhood, phone number, email ID, age, name, hometown, languages, hobbies, etc. Users can filter profiles based on preferences and communicate through a chat option available on each profile.
+ParentBridge is an application designed to connect elderly people in the same neighborhood. The application includes user profiles with details like neighborhood, phone number, email ID, age, name, hometown, languages, hobbies, etc. Users can filter profiles based on preferences and communicate through a chat option available on each profile.
 
 ## Features
 
